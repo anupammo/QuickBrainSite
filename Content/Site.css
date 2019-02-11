@@ -1,0 +1,327 @@
+﻿/* Stylesheet by https://anupammondal.in/contact */
+.navbar {
+    margin-bottom: 0px;
+}
+
+a.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-brand > img {
+    display: inline-block;
+    height: 100%;
+    width: auto;
+}
+
+.navbar-brand span {
+    display: inline-block;
+}
+
+.navbar-brand span {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+section {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+ul.txt-black {
+    margin-top: 15px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    line-height: 1.9em;
+}
+
+ul.nav li {
+    margin: 0px;
+}
+
+ul li {
+    margin: 5px;
+}
+
+.txt-fff {
+    color: #fff;
+}
+
+.txt-blue {
+    color: #032c4c;
+}
+
+.txt-p {
+    font-size: 1.25em;
+    text-align: justify;
+    /* padding-top: 10px;
+    padding-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px; */
+    font-stretch: semi-condensed;
+}
+
+.txt-h1 {
+    padding: 25px 15px;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+h2.txt-slide, h1, h2 {
+    font-size: 2.8em;
+    font-weight: 900;
+}
+
+a.know-more {
+    background-color: #f1f1f1;
+    color: #032c4c;
+    border: #032c4c solid 1px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 15px auto;
+    padding: 7px 15px;
+    width: fit-content;
+    display: block;
+    transition: .5s ease;
+}
+
+    a.know-more:hover {
+        background-color: #032c4c;
+        color: #ffffff;
+    }
+
+@media screen and (max-width: 600px) {
+    h2.txt-slide, h1, h2 {
+        font-size: 1.8em;
+        font-weight: 900;
+    }
+}
+
+.pad-bottom {
+    padding-bottom: 50px;
+}
+/* header Slider */
+/* Homepage */
+blockquote {
+    padding: 0px 10px;
+    margin: 0 0 20px;
+    font-size: 15px;
+    border-left: 5px solid #b3b3b3;
+}
+
+p.quote-head {
+    /* margin-bottom: 0px; */
+    font-size: 17px;
+    font-weight: 700;
+}
+
+p.quote-txt {
+    font-size: 14px;
+}
+
+span > div, img.img-top, blockquote {
+    border: #032c4c solid 0px;
+    border-top-width: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+blockquote {
+    margin: 5px;
+    background-color: #f1f1f1;
+}
+/* Homepage */
+.sliderbg-one {
+    background-image: url(pexels-photo-1661004.jpeg);
+    /* background-image: url(https://images.pexels.com/photos/1661004/pexels-photo-1661004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderbg-two {
+    background-image: url(pexels-photo-1068523.jpeg);
+    /* background-image: url(https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderbg-three {
+    background-image: url(pexels-photo-1249158.jpeg);
+    /* background-image: url(https://images.pexels.com/photos/1249158/pexels-photo-1249158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+    background-size: cover;
+    background-position: center;
+}
+
+.item h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: #fff;
+    background-color: #3a3a3ab0;
+}
+/* header Slider */
+.parallax-home {
+    background-image: url(pexels-photo-1446319.jpeg);
+    background-image: url(https://images.pexels.com/photos/1446319/pexels-photo-1446319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-one {
+    background-image: url(pexels-photo-1661004.jpeg);
+    /* background-image: url(https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-two {
+    background-image: url(pexels-photo-1661004.jpeg);
+    /* background-image: url(https://images.pexels.com/photos/1661004/pexels-photo-1661004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-three {
+    background-image: url(pexels-photo-1249158.jpeg);
+    /* background-image: url(https://images.pexels.com/photos/1249158/pexels-photo-1249158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgdark {
+    background-color: #000000aa;
+}
+
+.rounded-block {
+    border-radius: 5px;
+}
+/* Services Page */
+header.header-services, header.header-execution {
+    background-image: url(pexels-photo-1083623.jpeg);
+    /* background-image: url(https://images.pexels.com/photos/1083623/pexels-photo-1083623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+    background-position: center;
+    background-size: cover;
+}
+
+    header.header-services h1 {
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+
+    header.header-services p {
+        padding-top: 10px;
+        padding-bottom: 80px;
+    }
+
+.bgstyle {
+    /* background-color: #0011e0b5; */
+    background-color: #3a3a3ab0;
+}
+
+header.header-execution h1 {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.blue-bg {
+    margin-bottom: 5px;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+    .blue-bg h3, .blue-bg p {
+        transition: .5s ease;
+    }
+
+    .blue-bg:hover {
+        /* background-color: #dadada; */
+        background-color: #032c4c;
+    }
+
+        .blue-bg:hover h3, .blue-bg:hover p {
+            color: #fff;
+        }
+/* Services Page */
+/* Execution Page */
+tr.bg-qb {
+    background-color: #032c4c;
+    color: #fff;
+}
+
+td {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+/* Execution Page */
+/* Clients Page */
+.card-block {
+    font-family: monospace;
+    font-size: 16px;
+    border-radius: 5px;
+    width: fit-content;
+    background-color: #2196F3;
+    padding: 5px 20px 5px 15px;
+    margin: 2px auto;
+    display: inline-block;
+    width: fit-content;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+    .card-block:hover {
+        /* background-color: #8a8a8a; */
+        background-color: #032c4c;
+    }
+
+    .card-block i.fa {
+        padding: 10px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .card-block p {
+        text-align: center;
+        display: inline-block;
+        margin-bottom: 0px;
+    }
+/* Clients Page */
+/* Footer */
+footer {
+    background-color: #032c4c;
+    padding: 15px 25px 5px 25px;
+}
+
+.social-ico a i.fa {
+    padding: 5px 10px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.foot-sitemap span a {
+    text-decoration: none;
+    color: #fff !important;
+}
+/* Footer */
